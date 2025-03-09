@@ -1,8 +1,6 @@
-package com.example
-
-import com.example.model.Priority
-import com.example.model.Task
-import com.example.model.TaskRepository
+import model.Priority
+import model.Task
+import model.TaskRepository
 import io.ktor.http.*
 import io.ktor.serialization.*
 import io.ktor.serialization.kotlinx.json.*
